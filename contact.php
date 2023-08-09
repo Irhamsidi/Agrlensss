@@ -30,7 +30,7 @@
               <a class="nav-link" href="bio.php">Bio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.php">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="contact.php">Contact Me</a>

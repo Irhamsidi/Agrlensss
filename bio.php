@@ -11,7 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
-    <!--  -->
+    <!--  -->    
   </head>
   <body>
     <!-- Navbar -->
@@ -30,7 +30,7 @@
               <a class="nav-link active" aria-current="page" href="bio.php">Bio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.php">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact Me</a>
@@ -45,9 +45,7 @@
     <div class="content text-center">
       <div class="row">
         <div class="col">
-          <figure class="figure" style="width: 15rem">
-            <img src="img/Prof_Pict.jpeg" class="figure-img img-fluid" alt="..." />
-          </figure>
+            <img src="img/Prof_Pict.jpeg" class="img-fluid" alt="..." />
         </div>
         <div class="col" style="padding: 6rem">
           <h3>Edo Arta Wijaya</h3>

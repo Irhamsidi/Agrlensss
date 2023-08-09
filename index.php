@@ -30,7 +30,7 @@
               <a class="nav-link" href="bio.php">Bio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.php">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact Me</a>
@@ -69,79 +69,44 @@
     <section class="gallery text-center">
       <h1 class="text-center">Gallery</h1>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-bottom: 2rem">
         <!-- Card -->
-        <div class="col">
-          <figure class="figure" style="max-width: 25rem">
-            <img src="img/Forest.jpg" class="figure-img img-fluid" alt="..." />
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-            <h5>Ini Gambar 1</h5>
-          </figure>
+        <div class="col image-box">
+          <img src="img/gl1.jpg" class="img-fluid" alt="..." />
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <h5>Ini Gambar 1</h5>
         </div>
 
-        <div class="col">
-          <figure class="figure" style="max-width: 25rem">
-            <img src="img/Lake.jpg" class="figure-img img-fluid" alt="..." />
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-            <h5>Ini Gambar 2</h5>
-          </figure>
+        <div class="col image-box">
+          <img src="img/gl2.jpg" class="img-fluid" alt="..." />
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <h5>Ini Gambar 2</h5>
         </div>
 
-        <div class="col">
-          <figure class="figure" style="max-width: 25rem">
-            <img src="img/Forest.jpg" class="figure-img img-fluid" alt="..." />
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-            <h5>Ini Gambar 3</h5>
-          </figure>
+        <div class="col image-box">
+          <img src="img/gl3.jpg" class="img-fluid" alt="..." />
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <h5>Ini Gambar 3</h5>
         </div>
         <!--  -->
       </div>
 
-      <a class="btn btn-outline-secondary" href="gallery.html" role="button">See More</a>
+      <a class="btn btn-outline-secondary" href="gallery.php" role="button">See More</a>
     </section>
     <!-- End of Gallery -->
 
     <!-- Lets Work -->
     <section class="work text-center text-light">
-      <h1>Let's Work</h1>
+      <h1 style="margin-bottom: 2rem">Let's Work</h1>
       <a class="btn btn-outline-light" href="contact.php" role="button">Contact Me ></a>
     </section>
     <!--  -->
 
-    <!-- Photo Highlight -->
+    <!-- Pricelist -->
     <section class="pricelist text-center">
       <h1 class="text-center">Pricelist</h1>
 
-      <!-- Carousel -->
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/Forest.jpg" class="d-block w-30" alt="..." />
-            <img src="img/Lake.jpg" class="d-block w-30" alt="..." />
-            <img src="img/IntroImage.jpg" class="d-block w-30" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!--  -->
+      
     </section>
     <!-- End of Photo -->
 
