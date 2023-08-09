@@ -1,4 +1,4 @@
-<footer class="footer text-center text-lg-start text-light fixed-bottom">
+<footer class="footer text-center text-lg-start text-light">
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025)">
     © 2023 Copyright All Rights Reserved by Agr Lensss
     <div class="socmed">

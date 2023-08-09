@@ -1,20 +1,3 @@
-/* Fade In */
-/* body {
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-/*  */
-
 /* Image Carousel */
 .carousel .carousel-item {
   height: 500px;
@@ -58,6 +41,17 @@ nav {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.image-box {
+  height: 300px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /*  */
 
@@ -109,6 +103,8 @@ nav {
 /* Footer */
 footer {
   background-color: #181414;
+  position: sticky;
+  top: 100%;
 }
 
 .socmed {
@@ -124,6 +120,11 @@ footer {
 .content {
   padding: 4rem 2rem;
 }
+
+.img-fluid {
+  max-width: 15rem;
+  height: auto;
+}
 /*  */
 
 /* Contact */
@@ -134,5 +135,95 @@ footer {
 .contact img {
   margin-top: 4rem;
   margin-bottom: 1.5rem;
+}
+/*  */
+
+/* Gallery CSS */
+.galFoto {
+  padding: 5rem 2rem;
+}
+
+.galFoto h1 {
+  font-family: "Inria Serif";
+  margin: 2rem;
+}
+
+.gallery-title {
+  font-size: 36px;
+  color: #181414;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 22.5%;
+  left: 38.5%;
+  height: 45px;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #181414;
+  border-radius: 5px;
+  text-align: center;
+  color: #181414;
+}
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #181414;
+  border-radius: 5px;
+  text-align: center;
+  color: #fffdfa;
+  background-color: #181414;
+}
+
+.btn-default:active .filter-button:active {
+  background-color: #181414;
+  color: white;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+.cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hi-img {
+  max-width: 75%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.small-img {
+  max-width: 25%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .col-8 {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 /*  */
