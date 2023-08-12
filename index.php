@@ -12,6 +12,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!--  -->
+
+    <!-- BaguetteBox JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.js" async></script>
+    <!--  -->
   </head>
   <body>
     <!-- Navbar -->
@@ -105,8 +110,33 @@
     <!-- Pricelist -->
     <section class="pricelist text-center">
       <h1 class="text-center">Pricelist</h1>
+      <div class="row row-cols-1 row-cols-md-4 g-4 img-pop" style="margin-bottom: 2rem">
+        <!-- Card -->
+        <div class="col image-box">
+          <a href="img/gl1.jpg">
+            <img src="img/gl1.jpg" class="img-fluid" alt="Pricelist1" />
+          </a>
+        </div>
 
-      
+        <div class="col image-box">
+          <a href="img/gl2.jpg">
+            <img src="img/gl2.jpg" class="img-fluid" alt="Pricelist2" />
+          </a>
+        </div>
+
+        <div class="col image-box">
+          <a href="img/gl3.jpg">
+            <img src="img/gl3.jpg" class="img-fluid" alt="Pricelist3" />
+          </a>
+        </div>
+
+        <div class="col image-box">
+          <a href="img/gl1.jpg">
+            <img src="img/gl1.jpg" class="img-fluid" alt="Pricelist4" />
+          </a>
+        </div>
+        <!--  -->
+      </div>
     </section>
     <!-- End of Photo -->
 
@@ -140,6 +170,15 @@
       <i class="fa fa-whatsapp my-float"></i>
     </a>
     <!--  -->
+
+    <script>
+    window.addEventListener('load', function() {
+      baguetteBox.run('.img-pop', {
+        animation: 'fadeIn',
+        noScrollbars: false
+      });
+    });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
